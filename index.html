@@ -16,33 +16,33 @@
             <div class="action-phrase">Sign up for your life!!!</div>
             <div class="sign-up-form">
                 <form>
-                    <label for="fname">FIRST NAME</label>
+                    <label for="fname">FIRST NAME *</label>
                     <br>
-                    <input type="text" name="fname" id="fname">
+                    <input type="text" name="fname" id="fname" placeholder="John" required>
                     <br>
-                    <label for="lname">LAST NAME</label>
+                    <label for="lname">LAST NAME *</label>
                     <br>
-                    <input type="text" name="lname" id="lname">
+                    <input type="text" name="lname" id="lname" placeholder="Smith" required>
                     <br>
-                    <label for="email">EMAIL</label>
+                    <label for="email">EMAIL *</label>
                     <br>
-                    <input type="email" name="email" id="email">
+                    <input type="email" name="email" id="email" placeholder="lol@gmail.com" required>
                     <br>
-                    <label for="phone">PHONE NUMBER</label>
+                    <label for="phone">PHONE NUMBER *</label>
                     <br>
-                    <input type="number" name="phone" id="phone">
+                    <input type="text" name="phone" id="phone" pattern="(\d{10})" placeholder="6162909101" required>
                     <br>
-                    <label for="password">PASSWORD</label>
+                    <label for="password">PASSWORD *</label>
                     <br>
-                    <input type="password" name="password" id="password">
+                    <input type="password" name="password" id="password" placeholder="********" required>
                     <br>
-                    <label for="confirm-password">CONFIRM PASSWORD</label>
+                    <label for="confirm-password">CONFIRM PASSWORD *</label>
                     <br>
-                    <input type="password" name="confirm-password" id="confirm-password">
+                    <input type="password" name="confirm-password" id="confirm-password" placeholder="********" required>
                     <br>
+                    <button type="submit">Sign Up</button>
                 </form>
             </div>
-            <button type="submit">Sign Up</button>
         </div>
     </div>
 </body>

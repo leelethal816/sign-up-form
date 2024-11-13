@@ -17,7 +17,8 @@ body, html {
     height: 100%;
     margin: 0;
     font-family: "Poppins", "Arial";
-    color: white;
+    color: black;
+    box-sizing: border-box;
 }
 
 .background {
@@ -34,9 +35,8 @@ body, html {
 
 .content {
     width: 75%;
-    height: 75%;
-    background-color: gray;
-    opacity: 0.3;
+    height: 85%;
+    background-color: rgb(225, 185, 132);
     border-radius: 3%;
 
     display: flex;
@@ -68,6 +68,7 @@ body, html {
 }
 
 button {
+    margin-top: 20px;
     padding: 10px 10px 10px 10px;
     font-family: "Poppins", "Arial";
     font-size: 20px;
@@ -80,4 +81,25 @@ button:hover {
     color: white;
     background-color: black;
     cursor: pointer;
+}
+
+input {
+    width: 200px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-shadow: 3px 3px 3px 3px black;
+}
+
+input:valid {
+    border: 2px solid black;
+}
+
+input:invalid {
+    border: 2px solid red;
+}
+
+input:focus {
+    border: 2px solid lightskyblue;
+    box-shadow: 3px 3px 3px 3px grey;
 }
